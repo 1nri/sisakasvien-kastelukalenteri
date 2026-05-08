@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//GitHub Copilot//Indoor Plants Watering Calendar//FI
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sisäkasvien kastelukalenteri
+X-WR-TIMEZONE:Europe/Helsinki
+
+BEGIN:VEVENT
+UID:rahapuu-kevat-kesa-1@ratapihanreggaekarnevaalit
+DTSTAMP:20260503T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=YEARLY;BYMONTH=4,5,6,7,8,9;BYMONTHDAY=1,15
+SUMMARY:Rahapuu - kastelu
+DESCRIPTION:Kastele rahapuu huolellisesti ja anna mullan kuivua ennen seuraavaa kastelua.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rahapuu-syksy-talvi-1@ratapihanreggaekarnevaalit
+DTSTAMP:20260503T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=YEARLY;BYMONTH=1,2,3,10,11,12;BYMONTHDAY=1
+SUMMARY:Rahapuu - kastelu (harvemmin)
+DESCRIPTION:Kastele niukasti. Varmista, etta multa on kuiva ennen kastelua.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rahapuu-lannoitus-1@ratapihanreggaekarnevaalit
+DTSTAMP:20260503T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=YEARLY;BYMONTH=4,5,6,7,8;BYMONTHDAY=1
+SUMMARY:Rahapuu - mieto lannoitus
+DESCRIPTION:Lannoita kevat-kesakaudella miedolla annoksella kastelun yhteydessa.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:sutipuu-kevat-kesa-1@ratapihanreggaekarnevaalit
+DTSTAMP:20260503T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=YEARLY;BYMONTH=4,5,6,7,8,9;BYMONTHDAY=1,8,15,22
+SUMMARY:Sutipuu (Pachira aquatica) - kastelu
+DESCRIPTION:Kastele saannollisesti niin, etta multa on kohtalaisesti kostea. Anna mullan kuivua hieman kastelujen valilla, mutta ala anna kuivua kokonaan.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:sutipuu-syksy-talvi-1@ratapihanreggaekarnevaalit
+DTSTAMP:20260503T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=YEARLY;BYMONTH=1,2,3,10,11,12;BYMONTHDAY=1,15
+SUMMARY:Sutipuu (Pachira aquatica) - kastelu (harvemmin)
+DESCRIPTION:Kastele varovaisesti. Varmista, etta multa on hieman kuiva ennen kastelua. Talvella vesi haihtuu hitaammin.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:sutipuu-lannoitus-1@ratapihanreggaekarnevaalit
+DTSTAMP:20260503T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=YEARLY;BYMONTH=5,6,7;BYMONTHDAY=1
+SUMMARY:Sutipuu (Pachira aquatica) - mieto lannoitus
+DESCRIPTION:Lannoita kesakaudella miedolla annoksella kastelun yhteydessa. Sutipuu tarvitsee vahemman lannoitusta kuin monet muut kasvit.
+END:VEVENT
+
+END:VCALENDAR

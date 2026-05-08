@@ -7,57 +7,757 @@ X-WR-CALNAME:Sisäkasvien kastelukalenteri
 X-WR-TIMEZONE:Europe/Helsinki
 
 BEGIN:VEVENT
-UID:rahapuu-kevat-kesa-1@ratapihanreggaekarnevaalit
+UID:rahapuu-kevat-kesa-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260503T090000Z
-DTSTART;VALUE=DATE:20260101
-RRULE:FREQ=YEARLY;BYMONTH=4,5,6,7,8,9;BYMONTHDAY=1,15
-SUMMARY:Rahapuu - kastelu
-DESCRIPTION:Kastele rahapuu huolellisesti ja anna mullan kuivua ennen seuraavaa kastelua.
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=4,5,6,7,8,9
+SUMMARY:Rahapuu (Crassula ovata) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve kahden viikon välein 
+ kevät-kesäkaudella. 
+ Kastele vasta\, kun pintamulta (noin 2-3 cm) on kuivahtanut 
+ kunnolla. Anna 
+ mullan kuivua kastelujen välillä\, äläkä jätä sitä vettyneeksi.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
 BEGIN:VEVENT
-UID:rahapuu-syksy-talvi-1@ratapihanreggaekarnevaalit
+UID:rahapuu-syksy-talvi-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260503T090000Z
 DTSTART;VALUE=DATE:20260101
-RRULE:FREQ=YEARLY;BYMONTH=1,2,3,10,11,12;BYMONTHDAY=1
-SUMMARY:Rahapuu - kastelu (harvemmin)
-DESCRIPTION:Kastele niukasti. Varmista, etta multa on kuiva ennen kastelua.
+RRULE:FREQ=MONTHLY;BYMONTH=1,2,3,10,11,12;BYMONTHDAY=1
+SUMMARY:Rahapuu (Crassula ovata) - kastelun tarkistus (harvemmin)
+DESCRIPTION:Tarkista kastelutarve kerran kuukaudessa syksy-talvikaudella. 
+ Anna mullan kuivua kastelujen välissä tavallista enemmän ja kastele 
+ niukasti.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
 BEGIN:VEVENT
-UID:rahapuu-lannoitus-1@ratapihanreggaekarnevaalit
+UID:rahapuu-lannoitus-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260503T090000Z
-DTSTART;VALUE=DATE:20260101
-RRULE:FREQ=YEARLY;BYMONTH=4,5,6,7,8;BYMONTHDAY=1
-SUMMARY:Rahapuu - mieto lannoitus
-DESCRIPTION:Lannoita kevat-kesakaudella miedolla annoksella kastelun yhteydessa.
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=MONTHLY;INTERVAL=3;BYMONTH=4,5,6,7,8;BYMONTHDAY=1
+SUMMARY:Rahapuu (Crassula ovata) - mieto lannoitus
+DESCRIPTION:Lannoita rahapuuta kasvukaudella harvakseltaan\, noin 3-4 
+ kuukauden välein. Nestemäinen huonekasvilannoite sopii\, kun annostus 
+ pidetään miedohkona. Esimerkkituote: Substral Kaktus- ja 
+ mehikasviravinne.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
 BEGIN:VEVENT
-UID:sutipuu-kevat-kesa-1@ratapihanreggaekarnevaalit
+UID:sutipuu-kevat-kesa-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260503T090000Z
-DTSTART;VALUE=DATE:20260101
-RRULE:FREQ=YEARLY;BYMONTH=4,5,6,7,8,9;BYMONTHDAY=1,8,15,22
-SUMMARY:Sutipuu (Pachira aquatica) - kastelu
-DESCRIPTION:Kastele saannollisesti niin, etta multa on kohtalaisesti kostea. Anna mullan kuivua hieman kastelujen valilla, mutta ala anna kuivua kokonaan.
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
+SUMMARY:Sutipuu (Pachira aquatica) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. Pidä 
+ multa kosteahkona mutta hyvin vettä läpäisevänä\, ja kastele kun 
+ pintamulta on kuivahtanut. Älä jätä vettä seisomaan aluslautaselle.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
 BEGIN:VEVENT
-UID:sutipuu-syksy-talvi-1@ratapihanreggaekarnevaalit
+UID:sutipuu-syksy-talvi-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260503T090000Z
 DTSTART;VALUE=DATE:20260101
-RRULE:FREQ=YEARLY;BYMONTH=1,2,3,10,11,12;BYMONTHDAY=1,15
-SUMMARY:Sutipuu (Pachira aquatica) - kastelu (harvemmin)
-DESCRIPTION:Kastele varovaisesti. Varmista, etta multa on hieman kuiva ennen kastelua. Talvella vesi haihtuu hitaammin.
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=1,2,3,10,11,12
+SUMMARY:Sutipuu (Pachira aquatica) - kastelun tarkistus (harvemmin)
+DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
+ syksy-talvikaudella. Kastele talvella harvemmin\, mutta älä pidä 
+ multaa 
+ jatkuvasti märkänä tai vetisenä. Vältä jatkuvaa märkyyttä.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
 BEGIN:VEVENT
-UID:sutipuu-lannoitus-1@ratapihanreggaekarnevaalit
+UID:sutipuu-lannoitus-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260503T090000Z
-DTSTART;VALUE=DATE:20260101
-RRULE:FREQ=YEARLY;BYMONTH=5,6,7;BYMONTHDAY=1
+DTSTART;VALUE=DATE:20260501
+RRULE:FREQ=MONTHLY;BYMONTH=5,6,7;BYMONTHDAY=1
 SUMMARY:Sutipuu (Pachira aquatica) - mieto lannoitus
-DESCRIPTION:Lannoita kesakaudella miedolla annoksella kastelun yhteydessa. Sutipuu tarvitsee vahemman lannoitusta kuin monet muut kasvit.
+DESCRIPTION:Lannoita touko-heinäkuussa noin kerran kuukaudessa miedolla 
+ annoksella. Sutipuu tarvitsee vähemmän lannoitusta kuin monet muut 
+ kasvit. Esimerkkituote: Substral Viherravinne.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:kiiltojukka-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
+SUMMARY:Kiiltojukka (Yucca gigantea) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. 
+ Kastele 
+ vasta\, kun mullan pinta (noin 3-5 cm) on kuiva. Kastele sitten 
+ kunnolla ja valuta ylimääräinen vesi pois. Ravinteet: lannoita 
+ miedosti kasvukaudella\, korkeintaan noin kerran kuukaudessa. 
+ Esimerkkituote: Substral Viherravinne.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:kiiltojukka-syksy-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=1,2,3,10,11,12
+SUMMARY:Kiiltojukka (Yucca gigantea) - kastelun tarkistus (harvemmin)
+DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
+ syksy-talvikaudella. Talvella kastele säästeliäästi vasta\, kun 
+ mullan pinta (noin 5 cm) on kuiva.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:ronsylilja-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
+SUMMARY:Rönsylilja (Chlorophytum comosum) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. Pidä 
+ multa kevyesti kosteana ja kastele\, kun pintamulta (noin 1-2 cm) on 
+ kuivahtanut. Ravinteet: käytä vesiliukoista tai hidasliukoista 
+ huonekasvilannoitetta aktiivisen kasvun aikana valmistajan 
+ annostusohjeen mukaan. Esimerkkituote: Substral Viherravinne.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:ronsylilja-syksy-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=1,2,3,10,11,12
+SUMMARY:Rönsylilja (Chlorophytum comosum) - kastelun tarkistus (harvemmin)
+DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
+ syksy-talvikaudella. Kastele talvella harvemmin ja anna pintamullan 
+ kuivahtaa kastelujen välillä.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:kirjovehka-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
+SUMMARY:Kirjovehka (Dieffenbachia seguine) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. 
+ Kastele läpikotaisin ja anna pintamullan (noin 2-3 cm) kuivua ennen 
+ seuraavaa kastelua. Älä jätä vettä seisomaan aluslautaselle. 
+ Ravinteet: 
+ maalis-syyskuussa nestemäinen viherkasvilannoite puolikkaalla 
+ vahvuudella 2-4 viikon välein. Esimerkkituote: Substral Viherravinne.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:kirjovehka-syksy-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=1,2,3,10,11,12
+SUMMARY:Kirjovehka (Dieffenbachia seguine) - kastelun tarkistus (harvemmin)
+DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
+ syksy-talvikaudella. Kastele talvella harvemmin\, ja anna pintamullan 
+ (noin 2-3 cm) kuivua ennen kastelua. Vältä jatkuvaa märkyyttä.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:kirjojuoru-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
+SUMMARY:Kirjojuoru (Tradescantia zebrina) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. 
+ Kastele kohtuullisesti aktiivisen kasvun aikana ja anna mullan 
+ kuivahtaa kastelujen välissä. Ravinteet: anna tasapainoista 
+ nestelannoitetta noin kerran kuukaudessa kasvukaudella. 
+ Esimerkkituote: Substral Viherravinne.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:kirjojuoru-syksy-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=1,2,3,10,11,12
+SUMMARY:Kirjojuoru (Tradescantia zebrina) - kastelun tarkistus (harvemmin)
+DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
+ syksy-talvikaudella. Kastele talvella niukasti ja anna mullan 
+ kuivahtaa kastelujen välissä.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:anopinkieli-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=4,5,6,7,8,9
+SUMMARY:Anopinkieli (Dracaena trifasciata) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
+ kevät-kesäkaudella. Kastele vasta\, kun multa on kuivunut kunnolla\, ja 
+ valuta ylimääräinen vesi pois. Ravinteet: lannoita miedosti noin 
+ kerran kuukaudessa kasvukaudella. Esimerkkituote: Substral Kaktus- ja 
+ mehikasviravinne.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:anopinkieli-syksy-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=MONTHLY;BYMONTH=1,2,3,10,11,12;BYMONTHDAY=1
+SUMMARY:Anopinkieli (Dracaena trifasciata) - kastelun tarkistus (harvemmin)
+DESCRIPTION:Tarkista kastelutarve kerran kuukaudessa 
+ syksy-talvikaudella. Kastele niukasti vain tarvittaessa\, usein vasta 
+ 1-2 kuukauden välein\, kun multa on täysin kuiva.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:anopinhammas-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=4,5,6,7,8,9
+SUMMARY:Anopinhammas (Dracaena trifasciata) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
+ kevät-kesäkaudella. Kastele vasta\, kun multa on kuivunut kunnolla\, ja 
+ valuta ylimääräinen vesi pois. Ravinteet: lannoita miedosti noin 
+ kerran kuukaudessa kasvukaudella. Esimerkkituote: Substral Kaktus- ja 
+ mehikasviravinne.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:anopinhammas-syksy-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=MONTHLY;BYMONTH=1,2,3,10,11,12;BYMONTHDAY=1
+SUMMARY:Anopinhammas (Dracaena trifasciata) - kastelun tarkistus 
+ (harvemmin)
+DESCRIPTION:Tarkista kastelutarve kerran kuukaudessa 
+ syksy-talvikaudella. Kastele niukasti vain tarvittaessa\, usein vasta 
+ 1-2 kuukauden välein\, kun multa on täysin kuiva.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:limoviikuna-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
+SUMMARY:Limoviikuna (Ficus benjamina) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. 
+ Kastele\, kun pintamulta (noin 2-3 cm) on kuivahtanut\, ja vältä 
+ mullan jatkuvaa märkyyttä. Ravinteet: lannoita kevyesti uusien versojen 
+ muodostuttua ja uudelleen loppukesällä. Esimerkkituote: Substral 
+ Viherravinne.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:limoviikuna-syksy-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=1,2,3,10,11,12
+SUMMARY:Limoviikuna (Ficus benjamina) - kastelun tarkistus (harvemmin)
+DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
+ syksy-talvikaudella. Kastele niukemmin kuin kasvukaudella ja anna 
+ pintamullan kuivahtaa kastelujen välissä.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:liuska-aralia-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
+SUMMARY:Liuska-aralia (Schefflera arboricola) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. Anna 
+ mullan kuivahtaa kastelujen välillä ja kastele sitten läpikotaisin. 
+ Vältä sekä jatkuvaa märkyyttä että pitkää kuivuutta\, sillä 
+ molemmat 
+ voivat aiheuttaa lehtien varisemista.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:liuska-aralia-syksy-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=1,2,3,10,11,12
+SUMMARY:Liuska-aralia (Schefflera arboricola) - kastelun tarkistus 
+ (harvemmin)
+DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
+ syksy-talvikaudella. Anna mullan kuivahtaa kastelujen välillä ja 
+ kastele vasta tarvittaessa läpikotaisin. Vältä sekä liikakastelua 
+ että 
+ mullan päästämistä pitkäksi aikaa rutikuivaksi.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:kultakoynnos-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
+SUMMARY:Kultaköynnös (Epipremnum aureum) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. 
+ Kastele\, kun pintamulta (noin 2-3 cm) on kuivahtanut\, mutta vältä 
+ mullan jatkuvaa märkyyttä. Ravinteet: lannoita kasvukaudella noin joka 
+ toinen kuukausi. Esimerkkituote: Substral Viherravinne.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:kultakoynnos-syksy-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=1,2,3,10,11,12
+SUMMARY:Kultaköynnös (Epipremnum aureum) - kastelun tarkistus (harvemmin)
+DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
+ syksy-talvikaudella. Kastele talvella harvemmin ja anna pintamullan 
+ kuivahtaa kastelujen välissä.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:afrikkalainen-maitopensas-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=4,5,6,7,8,9
+SUMMARY:Afrikkalainen maitopensas (Synadenium grantii) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve kahden viikon välein 
+ kevät-kesäkaudella. Kastele vasta\, kun multa on lähes täysin kuiva\, 
+ ja käytä hyvin vettä läpäisevää kasvualustaa. Vältä 
+ liikakastelua.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:afrikkalainen-maitopensas-syksy-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=MONTHLY;BYMONTH=1,2,3,10,11,12;BYMONTHDAY=1
+SUMMARY:Afrikkalainen maitopensas (Synadenium grantii) - kastelun 
+ tarkistus 
+ (harvemmin)
+DESCRIPTION:Tarkista kastelutarve kerran kuukaudessa 
+ syksy-talvikaudella. Kastele niukasti vain tarvittaessa\, yleensä vasta 
+ kun multa on lähes täysin kuiva.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:viirivehka-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
+SUMMARY:Viirivehka (Spathiphyllum spp.) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. 
+ Pidä multa tasaisen kosteana\, mutta ei märkänä\, ja anna pintamullan 
+ kuivahtaa kevyesti kastelujen välillä. Ravinteet: lannoita 
+ keväällä ja 
+ kesällä miedosti noin 6-8 viikon välein\, noin 1/4 vahvuudella. 
+ Esimerkkituote: Substral Viherravinne.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:viirivehka-syksy-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=1,2,3,10,11,12
+SUMMARY:Viirivehka (Spathiphyllum spp.) - kastelun tarkistus (harvemmin)
+DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
+ syksy-talvikaudella. Anna mullan kuivahtaa kevyesti kastelujen 
+ välillä\, 
+ mutta älä päästä multaa täysin kuivaksi.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:pallerokirjotahti-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=4,5,6,7,8,9
+SUMMARY:Pallerokirjotähti (Haworthia attenuata) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
+ Kastele vasta\, kun kasvualusta on kuivahtanut kunnolla kastelujen 
+ välillä. Käytä hyvin vettä läpäisevää kaktus- tai 
+ mehikasvimultaa ja 
+ vältä liikakastelua.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:pallerokirjotahti-syksy-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=MONTHLY;BYMONTH=1,2,3,10,11,12;BYMONTHDAY=1
+SUMMARY:Pallerokirjotähti (Haworthia attenuata) - kastelun tarkistus 
+ (harvemmin)
+DESCRIPTION:Tarkista kastelutarve kerran kuukaudessa 
+ syksy-talvikaudella. Kastele niukasti vain tarvittaessa\, yleensä 
+ vasta kun kasvualusta on kuivunut kunnolla.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:echeveria-elegans-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=4,5,6,7,8,9
+SUMMARY:Meksikonruusu (Echeveria elegans) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
+ kevät-kesäkaudella. Kastele vasta\, kun kasvualusta on kuivunut 
+ kunnolla. Käytä hyvin vettä läpäisevää kaktus- tai mehikasvimultaa 
+ ja vältä liikakastelua.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:echeveria-elegans-syksy-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=MONTHLY;BYMONTH=1,2,3,10,11,12;BYMONTHDAY=1
+SUMMARY:Meksikonruusu (Echeveria elegans) - kastelun tarkistus 
+ (harvemmin)
+DESCRIPTION:Tarkista kastelutarve kerran kuukaudessa 
+ syksy-talvikaudella. Kastele niukasti vain tarvittaessa\, yleensä 
+ vasta kun kasvualusta on kuivunut kunnolla.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:cleistocactus-strausii-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=4,5,6,7,8,9
+SUMMARY:Hopeatolppakaktus (Cleistocactus strausii) - kastelun 
+ tarkistus
+DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
+ kevät-kesäkaudella. Kastele vasta\, kun kasvualusta on kuivunut 
+ kunnolla. Käytä hyvin vettä läpäisevää kaktusmultaa ja vältä 
+ liikakastelua.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:cleistocactus-strausii-syksy-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=MONTHLY;BYMONTH=1,2,3,10,11,12;BYMONTHDAY=1
+SUMMARY:Hopeatolppakaktus (Cleistocactus strausii) - kastelun 
+ tarkistus (harvemmin)
+DESCRIPTION:Tarkista kastelutarve kerran kuukaudessa 
+ syksy-talvikaudella. Kastele niukasti vain tarvittaessa\, yleensä 
+ vasta kun kasvualusta on kuivunut kunnolla.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:anthurium-crystallinum-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
+SUMMARY:Samettianthurium (Anthurium crystallinum) - kastelun 
+ tarkistus
+DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. 
+ Pidä kasvualusta kevyesti kosteana\, mutta ei märkänä. Kastele\, kun 
+ pintakerros on kuivahtanut hieman.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:anthurium-crystallinum-syksy-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=1,2,3,10,11,12
+SUMMARY:Samettianthurium (Anthurium crystallinum) - kastelun 
+ tarkistus (harvemmin)
+DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
+ syksy-talvikaudella. Kastele harvemmin kuin kasvukaudella\, mutta 
+ älä päästä kasvualustaa täysin kuivaksi.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:saniainen-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
+SUMMARY:Saniainen (Nephrolepis exaltata) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. 
+ Pidä kasvualusta tasaisen kosteana\, mutta ei vettyneenä. 
+ Älä päästä 
+ multaa kuivumaan kokonaan.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:saniainen-syksy-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=WEEKLY;BYMONTH=1,2,3,10,11,12
+SUMMARY:Saniainen (Nephrolepis exaltata) - kastelun tarkistus 
+ (harvemmin)
+DESCRIPTION:Tarkista kastelutarve viikoittain syksy-talvikaudella. 
+ Kastele harvemmin kuin kasvukaudella\, mutta 
+ pidä kasvualusta kevyesti kosteana.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:palmuvehka-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=4,5,6,7,8,9
+SUMMARY:Palmuvehka (Zamioculcas zamiifolia) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
+ kevät-kesäkaudella. Kastele vasta\, kun kasvualusta on kuivunut 
+ kunnolla. Vältä liikakastelua.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:palmuvehka-syksy-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=MONTHLY;BYMONTH=1,2,3,10,11,12;BYMONTHDAY=1
+SUMMARY:Palmuvehka (Zamioculcas zamiifolia) - kastelun tarkistus 
+ (harvemmin)
+DESCRIPTION:Tarkista kastelutarve kerran kuukaudessa 
+ syksy-talvikaudella. Kastele niukasti vasta tarvittaessa\, kun 
+ kasvualusta on kuivunut.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:ruusubegonia-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
+SUMMARY:Ruusubegonia (Begonia x hiemalis) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. 
+ Pidä kasvualusta kevyesti kosteana\, mutta vältä jatkuvaa 
+ märkyyttä. Kastele\, kun pintakerros on kuivahtanut.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:ruusubegonia-syksy-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=1,2,3,10,11,12
+SUMMARY:Ruusubegonia (Begonia x hiemalis) - kastelun tarkistus 
+ (harvemmin)
+DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
+ syksy-talvikaudella. Kastele harvemmin kuin kasvukaudella\, mutta 
+ älä päästä kasvualustaa täysin kuivaksi.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:pelargoni-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
+SUMMARY:Pelargoni (Pelargonium x hortorum) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. 
+ Kastele\, kun pintamulta on kuivahtanut\, ja vältä mullan jatkuvaa 
+ märkyyttä.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:pelargoni-syksy-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=1,2,3,10,11,12
+SUMMARY:Pelargoni (Pelargonium x hortorum) - kastelun tarkistus 
+ (harvemmin)
+DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
+ syksy-talvikaudella. Kastele niukemmin kuin kasvukaudella\, kun 
+ pintamulta on kuivahtanut.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rahapuu-kukinta-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=YEARLY;BYMONTH=1;BYMONTHDAY=1
+SUMMARY:Rahapuu (Crassula ovata) - mahdollinen kukinta
+DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa tyypillisesti 
+ tammi-maaliskuussa. Kukinta on usein harvinainen ja edellyttää runsasta 
+ valoa.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:ronsylilja-kukinta-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260501
+RRULE:FREQ=YEARLY;BYMONTH=5;BYMONTHDAY=1
+SUMMARY:Rönsylilja (Chlorophytum comosum) - mahdollinen kukinta
+DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa tavallisimmin 
+ touko-syyskuussa. Pienet valkoiset kukat ilmestyvät usein hyvissä 
+ valo-olosuhteissa.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:anopinkieli-kukinta-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260601
+RRULE:FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=1
+SUMMARY:Anopinkieli (Dracaena trifasciata) - mahdollinen kukinta
+DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa yleensä 
+ kesä-syyskaudella. Kukinta on melko harvinainen mutta mahdollinen 
+ aikuisella kasvilla.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:anopinhammas-kukinta-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260601
+RRULE:FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=1
+SUMMARY:Anopinhammas (Dracaena trifasciata) - mahdollinen kukinta
+DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa yleensä 
+ kesä-syyskaudella. Kukinta on melko harvinainen mutta mahdollinen 
+ aikuisella kasvilla.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:viirivehka-kukinta-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260301
+RRULE:FREQ=YEARLY;BYMONTH=3;BYMONTHDAY=1
+SUMMARY:Viirivehka (Spathiphyllum spp.) - mahdollinen kukinta
+DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa tavallisimmin 
+ maalis-lokakuussa. Hyvissä oloissa kukintaa voi esiintyä myös muulloin.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:pallerokirjotahti-kukinta-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260601
+RRULE:FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=1
+SUMMARY:Pallerokirjotähti (Haworthia attenuata) - mahdollinen kukinta
+DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa yleensä 
+ kesä-elokuussa. Kukinta onnistuu parhaiten valoisassa paikassa.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:echeveria-elegans-kukinta-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260201
+RRULE:FREQ=YEARLY;BYMONTH=2;BYMONTHDAY=1
+SUMMARY:Meksikonruusu (Echeveria elegans) - mahdollinen kukinta
+DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa tavallisimmin 
+ helmi-kesäkuussa. Kukinta riippuu erityisesti valon määrästä.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:anthurium-crystallinum-kukinta-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=YEARLY;BYMONTH=4;BYMONTHDAY=1
+SUMMARY:Samettianthurium (Anthurium crystallinum) - mahdollinen kukinta
+DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa tavallisimmin 
+ huhti-syyskuussa. Kukinnot ovat usein vaatimattomia verrattuna lehtiin.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:palmuvehka-kukinta-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260701
+RRULE:FREQ=YEARLY;BYMONTH=7;BYMONTHDAY=1
+SUMMARY:Palmuvehka (Zamioculcas zamiifolia) - mahdollinen kukinta
+DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa yleensä 
+ kesä-syyskaudella. Kukinta on harvinainen ja tapahtuu useimmiten 
+ iäkkäällä kasvilla.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:ruusubegonia-kukinta-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20261001
+RRULE:FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=1
+SUMMARY:Ruusubegonia (Begonia x hiemalis) - mahdollinen kukinta
+DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa tavallisimmin 
+ loka-huhtikuussa. Kukintaa voi jatkua pitkään tasaisissa olosuhteissa.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:pelargoni-kukinta-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260501
+RRULE:FREQ=YEARLY;BYMONTH=5;BYMONTHDAY=1
+SUMMARY:Pelargoni (Pelargonium x hortorum) - mahdollinen kukinta
+DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa tavallisimmin 
+ touko-lokakuussa. Erittäin valoisassa kukinta voi jatkua pidempään.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:pelargoni-siirto-ulos-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260515
+RRULE:FREQ=YEARLY;BYMONTH=5;BYMONTHDAY=15
+SUMMARY:Pelargoni (Pelargonium x hortorum) - siirto sisältä ulos
+DESCRIPTION:Siirrä ulos Etelä-Suomessa yleensä kesäkuun alussa, kun 
+ yölämpötila pysyy vakaasti yli +10 C eikä hallaa ole ennusteessa. 
+ Karaise kasvia 5-7 päivää puolivarjossa ennen aurinkoon siirtoa.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:pelargoni-siirto-sisaan-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260825
+RRULE:FREQ=YEARLY;BYMONTH=8;BYMONTHDAY=25
+SUMMARY:Pelargoni (Pelargonium x hortorum) - siirto ulkoa sisaan
+DESCRIPTION:Siirrä takaisin sisään viimeistään syyskuussa ennen 
+ yölämpöjen laskua alle +8 C. Talvehdus: poista kuihtuneet kukat, 
+ tarkista tuholaiset, leikkaa tarvittaessa ja sijoita valoisaan, 
+ viileään paikkaan (noin +5...+10 C). Kastele niukasti.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:ruusubegonia-siirto-ulos-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260520
+RRULE:FREQ=YEARLY;BYMONTH=5;BYMONTHDAY=20
+SUMMARY:Ruusubegonia (Begonia x hiemalis) - siirto sisältä ulos
+DESCRIPTION:Siirrä ulos Etelä-Suomessa yleensä kesäkuun alussa, kun 
+ yölämpötila pysyy yli +12 C eikä hallaa ole ennusteessa. Karaise 
+ kasvia 5-7 päivää suojaisessa puolivarjossa.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:ruusubegonia-siirto-sisaan-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260820
+RRULE:FREQ=YEARLY;BYMONTH=8;BYMONTHDAY=20
+SUMMARY:Ruusubegonia (Begonia x hiemalis) - siirto ulkoa sisaan
+DESCRIPTION:Siirrä takaisin sisään jo alkusyksyllä ennen 
+ viileitä öitä 
+ (alle +12 C). Talvehdus: tarkista tuholaiset, poista heikot versot ja 
+ pidä kasvi valoisassa paikassa noin +15...+18 C. Kastele maltillisesti 
+ ja vältä kylmää vetoa.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
 END:VCALENDAR

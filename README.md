@@ -1,7 +1,37 @@
 # Sisäkasvien kastelukalenteri
 
-Tämä projekti sisältää iCalendar-tiedoston sisäkasvien kastelu- ja
-lannoitusmuistutuksille.
+Automaattisesti päivittyvä kalenteri sisäkasvien kastelu-, lannoitus- ja kukintamuistutuksille.
+
+**🌐 [Avaa web-sivu ja tilausohjeet](https://1nri.github.io/sisakasvien-kastelukalenteri/)**
+
+## 🔗 Tilaa kalenteri
+
+**Suositeltu tapa:** Tilaa kalenteri URL:n kautta, jotta se päivittyy automaattisesti:
+
+```
+https://1nri.github.io/sisakasvien-kastelukalenteri/sisakasvien-kastelukalenteri.ics
+```
+
+### Ohjeet kalenterin tilaamiseen
+
+**Google Calendar:**
+1. Avaa [Google Calendar](https://calendar.google.com)
+2. Vasemmalla: "Muiden kalenterien" vieressä klikkaa **+**
+3. Valitse **"URL-osoitteesta"**
+4. Liitä yllä oleva URL ja klikkaa "Lisää kalenteri"
+
+**Apple Calendar (macOS/iOS):**
+1. Avaa Kalenteri-sovellus
+2. Valitse **Tiedosto → Uusi kalenterin tilaus** (macOS) tai **Asetukset → Tilit → Lisää tili → Muu → Lisää tilattu kalenteri** (iOS)
+3. Liitä yllä oleva URL
+4. Valitse päivitystiheys (suositus: päivittäin tai viikoittain)
+
+**Microsoft Outlook:**
+1. Avaa Outlook-kalenteri
+2. Klikkaa **Lisää kalenteri → Tilaa internetistä**
+3. Liitä yllä oleva URL
+
+> ⚠️ **Tärkeää:** Älä käytä "Tuo kalenteri" -toimintoa, vaan "Tilaa kalenteri" -toimintoa, jotta kalenteri päivittyy automaattisesti kun tiedostoa muokataan.
 
 ## Yhtenäinen hoitotaulukko
 

@@ -584,11 +584,11 @@ DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein
 END:VEVENT
 
 BEGIN:VEVENT
-UID:rahapuu-kukinta-1@sisakasvien-kastelukalenteri
+UID:rahapuu-kukinta-alkaa-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260508T090000Z
 DTSTART;VALUE=DATE:20260101
 RRULE:FREQ=YEARLY;BYMONTH=1;BYMONTHDAY=1
-SUMMARY:Rahapuu (Crassula ovata) - mahdollinen kukinta
+SUMMARY:Rahapuu (Crassula ovata) - kukinta voi alkaa
 DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa tyypillisesti 
  tammi-maaliskuussa. Kukinta on usein harvinainen ja edellyttää runsasta 
  valoa.
@@ -596,11 +596,21 @@ DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa tyypillisesti
 END:VEVENT
 
 BEGIN:VEVENT
-UID:ronsylilja-kukinta-1@sisakasvien-kastelukalenteri
+UID:rahapuu-kukinta-paattyy-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=YEARLY;BYMONTH=4;BYMONTHDAY=1
+SUMMARY:Rahapuu (Crassula ovata) - kukinta päättyy
+DESCRIPTION:Kukintakausi päättyy tyypillisesti maaliskuun lopussa.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:ronsylilja-kukinta-alkaa-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260508T090000Z
 DTSTART;VALUE=DATE:20260501
 RRULE:FREQ=YEARLY;BYMONTH=5;BYMONTHDAY=1
-SUMMARY:Rönsylilja (Chlorophytum comosum) - mahdollinen kukinta
+SUMMARY:Rönsylilja (Chlorophytum comosum) - kukinta voi alkaa
 DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa tavallisimmin 
  touko-syyskuussa. Pienet valkoiset kukat ilmestyvät usein hyvissä 
  valo-olosuhteissa.
@@ -608,11 +618,21 @@ DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa tavallisimmin
 END:VEVENT
 
 BEGIN:VEVENT
-UID:anopinkieli-kukinta-1@sisakasvien-kastelukalenteri
+UID:ronsylilja-kukinta-paattyy-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20261001
+RRULE:FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=1
+SUMMARY:Rönsylilja (Chlorophytum comosum) - kukinta päättyy
+DESCRIPTION:Kukintakausi päättyy tyypillisesti syyskuun lopussa.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:anopinkieli-kukinta-alkaa-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260508T090000Z
 DTSTART;VALUE=DATE:20260601
 RRULE:FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=1
-SUMMARY:Anopinkieli (Dracaena trifasciata) - mahdollinen kukinta
+SUMMARY:Anopinkieli (Dracaena trifasciata) - kukinta voi alkaa
 DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa yleensä 
  kesä-syyskaudella. Kukinta on melko harvinainen mutta mahdollinen 
  aikuisella kasvilla.
@@ -620,11 +640,21 @@ DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa yleensä
 END:VEVENT
 
 BEGIN:VEVENT
-UID:anopinhammas-kukinta-1@sisakasvien-kastelukalenteri
+UID:anopinkieli-kukinta-paattyy-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20261001
+RRULE:FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=1
+SUMMARY:Anopinkieli (Dracaena trifasciata) - kukinta päättyy
+DESCRIPTION:Kukintakausi päättyy tyypillisesti syyskuun lopussa.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:anopinhammas-kukinta-alkaa-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260508T090000Z
 DTSTART;VALUE=DATE:20260601
 RRULE:FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=1
-SUMMARY:Anopinhammas (Dracaena trifasciata) - mahdollinen kukinta
+SUMMARY:Anopinhammas (Dracaena trifasciata) - kukinta voi alkaa
 DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa yleensä 
  kesä-syyskaudella. Kukinta on melko harvinainen mutta mahdollinen 
  aikuisella kasvilla.
@@ -632,55 +662,105 @@ DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa yleensä
 END:VEVENT
 
 BEGIN:VEVENT
-UID:viirivehka-kukinta-1@sisakasvien-kastelukalenteri
+UID:anopinhammas-kukinta-paattyy-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20261001
+RRULE:FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=1
+SUMMARY:Anopinhammas (Dracaena trifasciata) - kukinta päättyy
+DESCRIPTION:Kukintakausi päättyy tyypillisesti syyskuun lopussa.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:viirivehka-kukinta-alkaa-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260508T090000Z
 DTSTART;VALUE=DATE:20260301
 RRULE:FREQ=YEARLY;BYMONTH=3;BYMONTHDAY=1
-SUMMARY:Viirivehka (Spathiphyllum spp.) - mahdollinen kukinta
+SUMMARY:Viirivehka (Spathiphyllum spp.) - kukinta voi alkaa
 DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa tavallisimmin 
  maalis-lokakuussa. Hyvissä oloissa kukintaa voi esiintyä myös muulloin.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
 BEGIN:VEVENT
-UID:pallerokirjotahti-kukinta-1@sisakasvien-kastelukalenteri
+UID:viirivehka-kukinta-paattyy-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20261101
+RRULE:FREQ=YEARLY;BYMONTH=11;BYMONTHDAY=1
+SUMMARY:Viirivehka (Spathiphyllum spp.) - kukinta päättyy
+DESCRIPTION:Kukintakausi päättyy tyypillisesti lokakuun lopussa.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:pallerokirjotahti-kukinta-alkaa-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260508T090000Z
 DTSTART;VALUE=DATE:20260601
 RRULE:FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=1
-SUMMARY:Pallerokirjotähti (Haworthia attenuata) - mahdollinen kukinta
+SUMMARY:Pallerokirjotähti (Haworthia attenuata) - kukinta voi alkaa
 DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa yleensä 
  kesä-elokuussa. Kukinta onnistuu parhaiten valoisassa paikassa.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
 BEGIN:VEVENT
-UID:echeveria-elegans-kukinta-1@sisakasvien-kastelukalenteri
+UID:pallerokirjotahti-kukinta-paattyy-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260901
+RRULE:FREQ=YEARLY;BYMONTH=9;BYMONTHDAY=1
+SUMMARY:Pallerokirjotähti (Haworthia attenuata) - kukinta päättyy
+DESCRIPTION:Kukintakausi päättyy tyypillisesti elokuun lopussa.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:echeveria-elegans-kukinta-alkaa-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260508T090000Z
 DTSTART;VALUE=DATE:20260201
 RRULE:FREQ=YEARLY;BYMONTH=2;BYMONTHDAY=1
-SUMMARY:Meksikonruusu (Echeveria elegans) - mahdollinen kukinta
+SUMMARY:Meksikonruusu (Echeveria elegans) - kukinta voi alkaa
 DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa tavallisimmin 
  helmi-kesäkuussa. Kukinta riippuu erityisesti valon määrästä.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
 BEGIN:VEVENT
-UID:anthurium-crystallinum-kukinta-1@sisakasvien-kastelukalenteri
+UID:echeveria-elegans-kukinta-paattyy-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260701
+RRULE:FREQ=YEARLY;BYMONTH=7;BYMONTHDAY=1
+SUMMARY:Meksikonruusu (Echeveria elegans) - kukinta päättyy
+DESCRIPTION:Kukintakausi päättyy tyypillisesti kesäkuun lopussa.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:anthurium-crystallinum-kukinta-alkaa-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260508T090000Z
 DTSTART;VALUE=DATE:20260401
 RRULE:FREQ=YEARLY;BYMONTH=4;BYMONTHDAY=1
-SUMMARY:Samettianthurium (Anthurium crystallinum) - mahdollinen kukinta
+SUMMARY:Samettianthurium (Anthurium crystallinum) - kukinta voi alkaa
 DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa tavallisimmin 
  huhti-syyskuussa. Kukinnot ovat usein vaatimattomia verrattuna lehtiin.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
 BEGIN:VEVENT
-UID:palmuvehka-kukinta-1@sisakasvien-kastelukalenteri
+UID:anthurium-crystallinum-kukinta-paattyy-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20261001
+RRULE:FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=1
+SUMMARY:Samettianthurium (Anthurium crystallinum) - kukinta päättyy
+DESCRIPTION:Kukintakausi päättyy tyypillisesti syyskuun lopussa.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:palmuvehka-kukinta-alkaa-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260508T090000Z
 DTSTART;VALUE=DATE:20260701
 RRULE:FREQ=YEARLY;BYMONTH=7;BYMONTHDAY=1
-SUMMARY:Palmuvehka (Zamioculcas zamiifolia) - mahdollinen kukinta
+SUMMARY:Palmuvehka (Zamioculcas zamiifolia) - kukinta voi alkaa
 DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa yleensä 
  kesä-syyskaudella. Kukinta on harvinainen ja tapahtuu useimmiten 
  iäkkäällä kasvilla.
@@ -688,24 +768,54 @@ DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa yleensä
 END:VEVENT
 
 BEGIN:VEVENT
-UID:ruusubegonia-kukinta-1@sisakasvien-kastelukalenteri
+UID:palmuvehka-kukinta-paattyy-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260508T090000Z
 DTSTART;VALUE=DATE:20261001
 RRULE:FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=1
-SUMMARY:Ruusubegonia (Begonia x hiemalis) - mahdollinen kukinta
+SUMMARY:Palmuvehka (Zamioculcas zamiifolia) - kukinta päättyy
+DESCRIPTION:Kukintakausi päättyy tyypillisesti syyskuun lopussa.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:ruusubegonia-kukinta-alkaa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20261001
+RRULE:FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=1
+SUMMARY:Ruusubegonia (Begonia x hiemalis) - kukinta voi alkaa
 DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa tavallisimmin 
  loka-huhtikuussa. Kukintaa voi jatkua pitkään tasaisissa olosuhteissa.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
 BEGIN:VEVENT
-UID:pelargoni-kukinta-1@sisakasvien-kastelukalenteri
+UID:ruusubegonia-kukinta-paattyy-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260508T090000Z
 DTSTART;VALUE=DATE:20260501
 RRULE:FREQ=YEARLY;BYMONTH=5;BYMONTHDAY=1
-SUMMARY:Pelargoni (Pelargonium x hortorum) - mahdollinen kukinta
+SUMMARY:Ruusubegonia (Begonia x hiemalis) - kukinta päättyy
+DESCRIPTION:Kukintakausi päättyy tyypillisesti huhtikuun lopussa.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:pelargoni-kukinta-alkaa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260501
+RRULE:FREQ=YEARLY;BYMONTH=5;BYMONTHDAY=1
+SUMMARY:Pelargoni (Pelargonium x hortorum) - kukinta voi alkaa
 DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa tavallisimmin 
  touko-lokakuussa. Erittäin valoisassa kukinta voi jatkua pidempään.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:pelargoni-kukinta-paattyy-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20261101
+RRULE:FREQ=YEARLY;BYMONTH=11;BYMONTHDAY=1
+SUMMARY:Pelargoni (Pelargonium x hortorum) - kukinta päättyy
+DESCRIPTION:Kukintakausi päättyy tyypillisesti lokakuun lopussa.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
@@ -757,6 +867,40 @@ DESCRIPTION:Siirrä takaisin sisään jo alkusyksyllä ennen
  (alle +12 C). Talvehdus: tarkista tuholaiset, poista heikot versot ja 
  pidä kasvi valoisassa paikassa noin +15...+18 C. Kastele maltillisesti 
  ja vältä kylmää vetoa.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:basilika-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260512T090000Z
+DTSTART;VALUE=DATE:20260501
+RRULE:FREQ=WEEKLY;INTERVAL=1;BYMONTH=5,6,7,8,9
+SUMMARY:Basilika (Ocimum basilicum) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve 2-3 kertaa viikossa kasvukaudella. 
+ Basilika tarvitsee säännöllistä kastelua ja pitää mullan tasaisen 
+ kosteana\, mutta ei märkänä. Kastele aamulla ja vältä kastelta 
+ lehtiä\, 
+ jotta et aiheuta lehtilaikkutauteja. Anna ylimääräisen veden valua 
+ pois. 
+ Sijoita valoisaan paikkaan\, mielellään eteläikkunalle tai 
+ ulkoterassille 
+ kesällä. Nipsuttele latvoja säännöllisesti tiiviimmän kasvun 
+ aikaansaamiseksi.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:basilika-lannoitus-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260512T090000Z
+DTSTART;VALUE=DATE:20260515
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=5,6,7,8,9
+SUMMARY:Basilika (Ocimum basilicum) - lannoitus
+DESCRIPTION:Lannoita basilikaa kahden viikon välein kasvukaudella 
+ miedolla nestemäisellä lannoitteella. Käytä tasapainoista 
+ yleislannoitetta tai yrttikasveille tarkoitettua lannoitetta 
+ puolikkaalla 
+ vahvuudella. Liika lannoitus voi heikentää aromia. Esimerkkituote: 
+ Substral Viherravinne tai yrttikasvilannoite.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 

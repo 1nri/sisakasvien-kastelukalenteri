@@ -16,7 +16,8 @@ DESCRIPTION:Tarkista kastelutarve kahden viikon välein
  kevät-kesäkaudella. 
  Kastele vasta\, kun pintamulta (noin 2-3 cm) on kuivahtanut 
  kunnolla. Anna 
- mullan kuivua kastelujen välillä\, äläkä jätä sitä vettyneeksi.
+ mullan kuivua kastelujen välillä\, äläkä jätä sitä vettyneeksi. 
+ VESIMÄÄRÄ: noin 0\,5-1\,5 dl per kastelukerran (mehikasvi).
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
@@ -49,11 +50,14 @@ BEGIN:VEVENT
 UID:sutipuu-kevat-kesa-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260503T090000Z
 DTSTART;VALUE=DATE:20260401
-RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9;BYDAY=MO,TH
 SUMMARY:Sutipuu (Pachira aquatica) - kastelun tarkistus
-DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. Pidä 
- multa kosteahkona mutta hyvin vettä läpäisevänä\, ja kastele kun 
- pintamulta on kuivahtanut. Älä jätä vettä seisomaan aluslautaselle.
+DESCRIPTION:Tarkista kastelutarve kahdesti viikossa kevät-kesäkaudella 
+ (PIENI RUUKKU). Pidä multa kosteahkona mutta hyvin vettä 
+ läpäisevänä\, ja kastele kun pintamulta on kuivahtanut. Pienessä 
+ ruukussa multa kuivuu nopeammin. Älä jätä vettä seisomaan 
+ aluslautaselle. VESIMÄÄRÄ: noin 0\,5-1 dl per kastelukerran (pieni 
+ ruukku).
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
@@ -88,12 +92,13 @@ DTSTAMP:20260508T090000Z
 DTSTART;VALUE=DATE:20260401
 RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
 SUMMARY:Kiiltojukka (Yucca gigantea) - kastelun tarkistus
-DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. 
- Kastele 
- vasta\, kun mullan pinta (noin 3-5 cm) on kuiva. Kastele sitten 
- kunnolla ja valuta ylimääräinen vesi pois. Ravinteet: lannoita 
- miedosti kasvukaudella\, korkeintaan noin kerran kuukaudessa. 
- Esimerkkituote: Substral Viherravinne.
+DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella 
+ (PIENI RUUKKU - tarkista useammin tarvittaessa). Kastele vasta\, 
+ kun mullan pinta (noin 2-3 cm pienessä ruukussa) on kuiva. Kastele 
+ sitten kunnolla ja valuta ylimääräinen vesi pois. VESIMÄÄRÄ: noin 
+ 0\,3-0\,5 dl per kastelukerran (pieni ruukku\, kestää kuivuutta). 
+ Ravinteet: lannoita miedosti kasvukaudella\, korkeintaan noin 
+ kerran kuukaudessa. Esimerkkituote: Substral Viherravinne.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
@@ -113,11 +118,13 @@ BEGIN:VEVENT
 UID:ronsylilja-kevat-kesa-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260508T090000Z
 DTSTART;VALUE=DATE:20260401
-RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9;BYDAY=MO,TH
 SUMMARY:Rönsylilja (Chlorophytum comosum) - kastelun tarkistus
-DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. Pidä 
- multa kevyesti kosteana ja kastele\, kun pintamulta (noin 1-2 cm) on 
- kuivahtanut. Ravinteet: käytä vesiliukoista tai hidasliukoista 
+DESCRIPTION:Tarkista kastelutarve kahdesti viikossa kevät-kesäkaudella 
+ (PIENI RUUKKU). Pidä multa kevyesti kosteana ja kastele\, kun 
+ pintamulta (noin 1-2 cm) on kuivahtanut. Pienessä ruukussa multa 
+ kuivuu nopeammin. VESIMÄÄRÄ: noin 0\,5-0\,8 dl per kastelukerran 
+ (pieni ruukku). Ravinteet: käytä vesiliukoista tai hidasliukoista 
  huonekasvilannoitetta aktiivisen kasvun aikana valmistajan 
  annostusohjeen mukaan. Esimerkkituote: Substral Viherravinne.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
@@ -139,14 +146,16 @@ BEGIN:VEVENT
 UID:kirjovehka-kevat-kesa-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260508T090000Z
 DTSTART;VALUE=DATE:20260401
-RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9;BYDAY=MO,TH
 SUMMARY:Kirjovehka (Dieffenbachia seguine) - kastelun tarkistus
-DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. 
- Kastele läpikotaisin ja anna pintamullan (noin 2-3 cm) kuivua ennen 
- seuraavaa kastelua. Älä jätä vettä seisomaan aluslautaselle. 
- Ravinteet: 
- maalis-syyskuussa nestemäinen viherkasvilannoite puolikkaalla 
- vahvuudella 2-4 viikon välein. Esimerkkituote: Substral Viherravinne.
+DESCRIPTION:Tarkista kastelutarve kahdesti viikossa kevät-kesäkaudella 
+ (PIENI RUUKKU). Kastele läpikotaisin ja anna pintamullan (noin 1-2 
+ cm pienessä ruukussa) kuivua ennen seuraavaa kastelua. Älä jätä 
+ vettä seisomaan aluslautaselle. Pienessä ruukussa multa kuivuu 
+ nopeammin. VESIMÄÄRÄ: noin 0\,5-1 dl per kastelukerran (pieni 
+ ruukku). Ravinteet: maalis-syyskuussa nestemäinen 
+ viherkasvilannoite puolikkaalla vahvuudella 2-4 viikon välein. 
+ Esimerkkituote: Substral Viherravinne.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
@@ -163,14 +172,43 @@ DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein
 END:VEVENT
 
 BEGIN:VEVENT
-UID:kirjojuoru-kevat-kesa-1@sisakasvien-kastelukalenteri
+UID:kirjovehka-iso-kevat-kesa-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260508T090000Z
 DTSTART;VALUE=DATE:20260401
 RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
-SUMMARY:Kirjojuoru (Tradescantia zebrina) - kastelun tarkistus
+SUMMARY:Kirjovehka (Dieffenbachia seguine) - kastelun tarkistus
 DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. 
- Kastele kohtuullisesti aktiivisen kasvun aikana ja anna mullan 
- kuivahtaa kastelujen välissä. Ravinteet: anna tasapainoista 
+ Kastele läpikotaisin ja anna pintamullan (noin 2-3 cm) kuivua ennen 
+ seuraavaa kastelua. Älä jätä vettä seisomaan aluslautaselle. 
+ VESIMÄÄRÄ: noin 1-2 dl per kastelukerran. Ravinteet: 
+ maalis-syyskuussa nestemäinen viherkasvilannoite puolikkaalla 
+ vahvuudella 2-4 viikon välein. Esimerkkituote: Substral Viherravinne.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:kirjovehka-iso-syksy-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=1,2,3,10,11,12
+SUMMARY:Kirjovehka (Dieffenbachia seguine) - kastelun tarkistus (harvemmin)
+DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
+ syksy-talvikaudella. Kastele talvella harvemmin\, ja anna pintamullan 
+ (noin 2-3 cm) kuivua ennen kastelua. Vältä jatkuvaa märkyyttä.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:kirjojuoru-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9;BYDAY=MO,TH
+SUMMARY:Kirjojuoru (Tradescantia zebrina) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve kahdesti viikossa kevät-kesäkaudella 
+ (PIENI RUUKKU). Kastele kohtuullisesti aktiivisen kasvun aikana ja 
+ anna mullan kuivahtaa kastelujen välissä. Pienessä ruukussa multa 
+ kuivuu nopeammin. VESIMÄÄRÄ: noin 0\,3-0\,5 dl per kastelukerran 
+ (pieni ruukku\, kuivuu välillä). Ravinteet: anna tasapainoista 
  nestelannoitetta noin kerran kuukaudessa kasvukaudella. 
  Esimerkkituote: Substral Viherravinne.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
@@ -196,7 +234,8 @@ RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=4,5,6,7,8,9
 SUMMARY:Anopinkieli (Dracaena trifasciata) - kastelun tarkistus
 DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
  kevät-kesäkaudella. Kastele vasta\, kun multa on kuivunut kunnolla\, ja 
- valuta ylimääräinen vesi pois. Ravinteet: lannoita miedosti noin 
+ valuta ylimääräinen vesi pois. VESIMÄÄRÄ: noin 0\,5-1 dl per 
+ kastelukerran (mehikasvi). Ravinteet: lannoita miedosti noin 
  kerran kuukaudessa kasvukaudella. Esimerkkituote: Substral Kaktus- ja 
  mehikasviravinne.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
@@ -218,12 +257,16 @@ BEGIN:VEVENT
 UID:anopinhammas-kevat-kesa-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260508T090000Z
 DTSTART;VALUE=DATE:20260401
-RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=4,5,6,7,8,9
+RRULE:FREQ=WEEKLY;INTERVAL=1;BYMONTH=4,5,6,7,8,9
 SUMMARY:Anopinhammas (Dracaena trifasciata) - kastelun tarkistus
-DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
- kevät-kesäkaudella. Kastele vasta\, kun multa on kuivunut kunnolla\, ja 
- valuta ylimääräinen vesi pois. Ravinteet: lannoita miedosti noin 
- kerran kuukaudessa kasvukaudella. Esimerkkituote: Substral Kaktus- ja 
+DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella 
+ (PIENI RUUKKU - kuivuu nopeammin). Kastele vasta\, kun multa on 
+ kuivunut kunnolla (noin 2-3 cm syvyydeltä)\, ja valuta ylimääräinen 
+ vesi pois. Vaikka kasvi kestää kuivuutta\, pienessä ruukussa 
+ juuristo täyttyy nopeammin ja voi tarvita hieman useampaa 
+ tarkistusta. VESIMÄÄRÄ: noin 0\,2-0\,4 dl per kastelukerran (pieni 
+ ruukku\, mehikasvi). Ravinteet: lannoita miedosti noin kerran 
+ kuukaudessa kasvukaudella. Esimerkkituote: Substral Kaktus- ja 
  mehikasviravinne.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
@@ -249,7 +292,8 @@ RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
 SUMMARY:Limoviikuna (Ficus benjamina) - kastelun tarkistus
 DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. 
  Kastele\, kun pintamulta (noin 2-3 cm) on kuivahtanut\, ja vältä 
- mullan jatkuvaa märkyyttä. Ravinteet: lannoita kevyesti uusien versojen 
+ mullan jatkuvaa märkyyttä. VESIMÄÄRÄ: noin 1-2 dl per kastelukerran. 
+ Ravinteet: lannoita kevyesti uusien versojen 
  muodostuttua ja uudelleen loppukesällä. Esimerkkituote: Substral 
  Viherravinne.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
@@ -273,11 +317,13 @@ DTSTAMP:20260508T090000Z
 DTSTART;VALUE=DATE:20260401
 RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
 SUMMARY:Liuska-aralia (Schefflera arboricola) - kastelun tarkistus
-DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. Anna 
- mullan kuivahtaa kastelujen välillä ja kastele sitten läpikotaisin. 
- Vältä sekä jatkuvaa märkyyttä että pitkää kuivuutta\, sillä 
- molemmat 
- voivat aiheuttaa lehtien varisemista.
+DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella 
+ (PIENI RUUKKU - tarkista useammin tarvittaessa). Anna mullan 
+ kuivahtaa kastelujen välillä ja kastele sitten läpikotaisin. Vältä 
+ sekä jatkuvaa märkyyttä että pitkää kuivuutta\, sillä molemmat 
+ voivat aiheuttaa lehtien varisemista. Pienessä ruukussa multa kuivuu 
+ nopeammin. VESIMÄÄRÄ: noin 0\,5-0\,8 dl per kastelukerran (pieni 
+ ruukku).
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
@@ -300,12 +346,15 @@ BEGIN:VEVENT
 UID:kultakoynnos-kevat-kesa-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260508T090000Z
 DTSTART;VALUE=DATE:20260401
-RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9;BYDAY=MO,TH
 SUMMARY:Kultaköynnös (Epipremnum aureum) - kastelun tarkistus
-DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. 
- Kastele\, kun pintamulta (noin 2-3 cm) on kuivahtanut\, mutta vältä 
- mullan jatkuvaa märkyyttä. Ravinteet: lannoita kasvukaudella noin joka 
- toinen kuukausi. Esimerkkituote: Substral Viherravinne.
+DESCRIPTION:Tarkista kastelutarve kahdesti viikossa kevät-kesäkaudella 
+ (ISO RUUKKU\, VALTAVA KASVI). Kastele\, kun pintamulta (noin 2-3 cm) 
+ on kuivahtanut\, mutta vältä mullan jatkuvaa märkyyttä. Valtava 
+ kasvi haihduttaa paljon vettä lehtiensä kautta ja tarvitsee runsaasti 
+ kastelua. VESIMÄÄRÄ: noin 1-2 dl per kastelukerran (valtava kasvi). 
+ Ravinteet: lannoita kasvukaudella noin joka toinen kuukausi. 
+ Esimerkkituote: Substral Viherravinne.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
@@ -316,8 +365,37 @@ DTSTART;VALUE=DATE:20260101
 RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=1,2,3,10,11,12
 SUMMARY:Kultaköynnös (Epipremnum aureum) - kastelun tarkistus (harvemmin)
 DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
- syksy-talvikaudella. Kastele talvella harvemmin ja anna pintamullan 
- kuivahtaa kastelujen välissä.
+ syksy-talvikaudella (ISO RUUKKU\, VALTAVA KASVI). Kastele talvella 
+ harvemmin ja anna pintamullan kuivahtaa kastelujen välissä. Valtava 
+ kasvi tarvitsee suhteellisesti enemmän vettä kuin pieni. VESIMÄÄRÄ: 
+ noin 1-1\,5 dl per kastelukerran (valtava kasvi\, talvikausi).
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:kultakoynnos-pieni-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9;BYDAY=MO,TH
+SUMMARY:Kultaköynnös (Epipremnum aureum) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve kahdesti viikossa kevät-kesäkaudella 
+ (PIENI RUUKKU). Kastele\, kun pintamulta (noin 2-3 cm) on 
+ kuivahtanut\, mutta vältä mullan jatkuvaa märkyyttä. Pienessä 
+ ruukussa multa kuivuu nopeammin. VESIMÄÄRÄ: noin 0\,3-0\,5 dl per 
+ kastelukerran (pieni ruukku). Ravinteet: lannoita kasvukaudella noin 
+ joka toinen kuukausi. Esimerkkituote: Substral Viherravinne.
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:kultakoynnos-pieni-syksy-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=1,2,3,10,11,12
+SUMMARY:Kultaköynnös (Epipremnum aureum) - kastelun tarkistus (harvemmin)
+DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
+ syksy-talvikaudella (PIENI RUUKKU). Kastele talvella harvemmin ja anna 
+ pintamullan kuivahtaa kastelujen välissä.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
@@ -325,12 +403,14 @@ BEGIN:VEVENT
 UID:afrikkalainen-maitopensas-kevat-kesa-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260508T090000Z
 DTSTART;VALUE=DATE:20260401
-RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=4,5,6,7,8,9
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
 SUMMARY:Afrikkalainen maitopensas (Synadenium grantii) - kastelun tarkistus
-DESCRIPTION:Tarkista kastelutarve kahden viikon välein 
- kevät-kesäkaudella. Kastele vasta\, kun multa on lähes täysin kuiva\, 
- ja käytä hyvin vettä läpäisevää kasvualustaa. Vältä 
- liikakastelua.
+DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella 
+ (ISO RUUKKU\, VALTAVA KASVI). Kastele vasta\, kun multa on lähes 
+ täysin kuiva\, ja käytä hyvin vettä läpäisevää kasvualustaa. 
+ Vältä liikakastelua. Valtava kasvi tarvitsee enemmän vettä kuin 
+ pieni\, vaikka onkin mehikasvi. VESIMÄÄRÄ: noin 0\,8-1\,5 dl per 
+ kastelukerran (valtava kasvi\, mehikasvi).
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
@@ -338,13 +418,42 @@ BEGIN:VEVENT
 UID:afrikkalainen-maitopensas-syksy-talvi-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260508T090000Z
 DTSTART;VALUE=DATE:20260101
-RRULE:FREQ=MONTHLY;BYMONTH=1,2,3,10,11,12;BYMONTHDAY=1
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=1,2,3,10,11,12
 SUMMARY:Afrikkalainen maitopensas (Synadenium grantii) - kastelun 
  tarkistus 
  (harvemmin)
-DESCRIPTION:Tarkista kastelutarve kerran kuukaudessa 
- syksy-talvikaudella. Kastele niukasti vain tarvittaessa\, yleensä vasta 
- kun multa on lähes täysin kuiva.
+DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
+ syksy-talvikaudella (ISO RUUKKU\, VALTAVA KASVI). Kastele niukasti vain 
+ tarvittaessa\, yleensä vasta kun multa on lähes täysin kuiva. 
+ Valtava kasvi tarvitsee enemmän vettä kuin pieni. VESIMÄÄRÄ: noin 
+ 0\,5-1 dl per kastelukerran (valtava kasvi\, talvikausi\, mehikasvi).
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:afrikkalainen-maitopensas-pieni-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
+SUMMARY:Afrikkalainen maitopensas (Synadenium grantii) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella (PIENI 
+ RUUKKU). Kastele vasta\, kun multa on lähes täysin kuiva\, ja käytä 
+ hyvin vettä läpäisevää kasvualustaa. Vältä liikakastelua. Pienessä 
+ ruukussa multa kuivuu nopeammin. VESIMÄÄRÄ: noin 0\,2-0\,4 dl per 
+ kastelukerran (pieni ruukku\, mehikasvi).
+ Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:afrikkalainen-maitopensas-pieni-syksy-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260508T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=1,2,3,10,11,12
+SUMMARY:Afrikkalainen maitopensas (Synadenium grantii) - kastelun 
+ tarkistus (harvemmin)
+DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
+ syksy-talvikaudella (PIENI RUUKKU). Kastele niukasti vain 
+ tarvittaessa\, yleensä vasta kun multa on lähes täysin kuiva.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
@@ -352,14 +461,15 @@ BEGIN:VEVENT
 UID:viirivehka-kevat-kesa-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260508T090000Z
 DTSTART;VALUE=DATE:20260401
-RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9;BYDAY=MO,TH
 SUMMARY:Viirivehka (Spathiphyllum spp.) - kastelun tarkistus
-DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. 
- Pidä multa tasaisen kosteana\, mutta ei märkänä\, ja anna pintamullan 
- kuivahtaa kevyesti kastelujen välillä. Ravinteet: lannoita 
- keväällä ja 
- kesällä miedosti noin 6-8 viikon välein\, noin 1/4 vahvuudella. 
- Esimerkkituote: Substral Viherravinne.
+DESCRIPTION:Tarkista kastelutarve kahdesti viikossa kevät-kesäkaudella 
+ (PIENI RUUKKU). Pidä multa tasaisen kosteana\, mutta ei märkänä\, 
+ ja anna pintamullan kuivahtaa kevyesti kastelujen välillä. Pienessä 
+ ruukussa multa kuivuu nopeammin. VESIMÄÄRÄ: noin 0\,5-1 dl per 
+ kastelukerran (pieni ruukku\, pitää kosteana). Ravinteet: lannoita 
+ keväällä ja kesällä miedosti noin 6-8 viikon välein\, noin 1/4 
+ vahvuudella. Esimerkkituote: Substral Viherravinne.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
@@ -383,10 +493,10 @@ DTSTART;VALUE=DATE:20260401
 RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=4,5,6,7,8,9
 SUMMARY:Pallerokirjotähti (Haworthia attenuata) - kastelun tarkistus
 DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
- Kastele vasta\, kun kasvualusta on kuivahtanut kunnolla kastelujen 
- välillä. Käytä hyvin vettä läpäisevää kaktus- tai 
- mehikasvimultaa ja 
- vältä liikakastelua.
+ kevät-kesäkaudella. Kastele vasta\, kun kasvualusta on kuivahtanut 
+ kunnolla kastelujen välillä. Käytä hyvin vettä läpäisevää kaktus- 
+ tai mehikasvimultaa ja vältä liikakastelua. VESIMÄÄRÄ: noin 
+ 0\,1-0\,3 dl per kastelukerran (mehikasvi).
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
@@ -412,7 +522,8 @@ SUMMARY:Meksikonruusu (Echeveria elegans) - kastelun tarkistus
 DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
  kevät-kesäkaudella. Kastele vasta\, kun kasvualusta on kuivunut 
  kunnolla. Käytä hyvin vettä läpäisevää kaktus- tai mehikasvimultaa 
- ja vältä liikakastelua.
+ ja vältä liikakastelua. VESIMÄÄRÄ: noin 0\,1-0\,3 dl per 
+ kastelukerran (mehikasvi).
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
@@ -439,7 +550,8 @@ SUMMARY:Hopeatolppakaktus (Cleistocactus strausii) - kastelun
 DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
  kevät-kesäkaudella. Kastele vasta\, kun kasvualusta on kuivunut 
  kunnolla. Käytä hyvin vettä läpäisevää kaktusmultaa ja vältä 
- liikakastelua.
+ liikakastelua. VESIMÄÄRÄ: noin 0\,2-0\,4 dl per kastelukerran 
+ (kaktus).
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
@@ -465,7 +577,8 @@ SUMMARY:Samettianthurium (Anthurium crystallinum) - kastelun
  tarkistus
 DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. 
  Pidä kasvualusta kevyesti kosteana\, mutta ei märkänä. Kastele\, kun 
- pintakerros on kuivahtanut hieman.
+ pintakerros on kuivahtanut hieman. VESIMÄÄRÄ: noin 0\,5-1 dl per 
+ kastelukerran.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
@@ -486,12 +599,13 @@ BEGIN:VEVENT
 UID:saniainen-kevat-kesa-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260508T090000Z
 DTSTART;VALUE=DATE:20260401
-RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9;BYDAY=MO,WE,FR
 SUMMARY:Saniainen (Nephrolepis exaltata) - kastelun tarkistus
-DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. 
- Pidä kasvualusta tasaisen kosteana\, mutta ei vettyneenä. 
- Älä päästä 
- multaa kuivumaan kokonaan.
+DESCRIPTION:Tarkista kastelutarve 3 kertaa viikossa kevät-kesäkaudella 
+ (PIENI RUUKKU). Pidä kasvualusta tasaisen kosteana\, mutta ei 
+ vettyneenä. Älä päästä multaa kuivumaan kokonaan. Pienessä ruukussa 
+ multa kuivuu erittäin nopeasti. VESIMÄÄRÄ: noin 0\,3-0\,7 dl per 
+ kastelukerran (pieni ruukku\, tarvitsee usein kosteutta).
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
@@ -499,12 +613,13 @@ BEGIN:VEVENT
 UID:saniainen-syksy-talvi-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260508T090000Z
 DTSTART;VALUE=DATE:20260101
-RRULE:FREQ=WEEKLY;BYMONTH=1,2,3,10,11,12
+RRULE:FREQ=WEEKLY;BYMONTH=1,2,3,10,11,12;BYDAY=MO,TH
 SUMMARY:Saniainen (Nephrolepis exaltata) - kastelun tarkistus 
  (harvemmin)
-DESCRIPTION:Tarkista kastelutarve viikoittain syksy-talvikaudella. 
- Kastele harvemmin kuin kasvukaudella\, mutta 
- pidä kasvualusta kevyesti kosteana.
+DESCRIPTION:Tarkista kastelutarve kahdesti viikossa syksy-talvikaudella 
+ (PIENI RUUKKU). Kastele harvemmin kuin kasvukaudella\, mutta pidä 
+ kasvualusta kevyesti kosteana. Pienessä ruukussa multa kuivuu 
+ nopeasti jopa talvella.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
@@ -516,7 +631,8 @@ RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=4,5,6,7,8,9
 SUMMARY:Palmuvehka (Zamioculcas zamiifolia) - kastelun tarkistus
 DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein 
  kevät-kesäkaudella. Kastele vasta\, kun kasvualusta on kuivunut 
- kunnolla. Vältä liikakastelua.
+ kunnolla. Vältä liikakastelua. VESIMÄÄRÄ: noin 0\,3-0\,6 dl per 
+ kastelukerran (mehikasvi).
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
@@ -541,7 +657,8 @@ RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
 SUMMARY:Ruusubegonia (Begonia x hiemalis) - kastelun tarkistus
 DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. 
  Pidä kasvualusta kevyesti kosteana\, mutta vältä jatkuvaa 
- märkyyttä. Kastele\, kun pintakerros on kuivahtanut.
+ märkyyttä. Kastele\, kun pintakerros on kuivahtanut. VESIMÄÄRÄ: 
+ noin 0\,3-0\,5 dl per kastelukerran.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
@@ -566,7 +683,7 @@ RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
 SUMMARY:Pelargoni (Pelargonium x hortorum) - kastelun tarkistus
 DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. 
  Kastele\, kun pintamulta on kuivahtanut\, ja vältä mullan jatkuvaa 
- märkyyttä.
+ märkyyttä. VESIMÄÄRÄ: noin 0\,5-1 dl per kastelukerran.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
 END:VEVENT
 
@@ -874,16 +991,16 @@ BEGIN:VEVENT
 UID:basilika-kevat-kesa-1@sisakasvien-kastelukalenteri
 DTSTAMP:20260512T090000Z
 DTSTART;VALUE=DATE:20260501
-RRULE:FREQ=WEEKLY;INTERVAL=1;BYMONTH=5,6,7,8,9
+RRULE:FREQ=WEEKLY;BYMONTH=5,6,7,8,9;BYDAY=MO,WE,FR
 SUMMARY:Basilika (Ocimum basilicum) - kastelun tarkistus
-DESCRIPTION:Tarkista kastelutarve 2-3 kertaa viikossa kasvukaudella. 
- Basilika tarvitsee säännöllistä kastelua ja pitää mullan tasaisen 
- kosteana\, mutta ei märkänä. Kastele aamulla ja vältä kastelta 
- lehtiä\, 
- jotta et aiheuta lehtilaikkutauteja. Anna ylimääräisen veden valua 
- pois. 
- Sijoita valoisaan paikkaan\, mielellään eteläikkunalle tai 
- ulkoterassille 
+DESCRIPTION:Tarkista kastelutarve 3 kertaa viikossa kasvukaudella 
+ (PIENI RUUKKU). Basilika tarvitsee säännöllistä kastelua ja pitää 
+ mullan tasaisen kosteana\, mutta ei märkänä. Pienessä ruukussa 
+ multa kuivuu erittäin nopeasti. VESIMÄÄRÄ: noin 0\,5-1 dl per 
+ kastelukerran (pieni ruukku\, tarvitsee paljon vettä). Kastele 
+ aamulla ja vältä kastelta lehtiä\, jotta et aiheuta 
+ lehtilaikkutauteja. Anna ylimääräisen veden valua pois. Sijoita 
+ valoisaan paikkaan\, mielellään eteläikkunalle tai ulkoterassille 
  kesällä. Nipsuttele latvoja säännöllisesti tiiviimmän kasvun 
  aikaansaamiseksi.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
@@ -902,6 +1019,180 @@ DESCRIPTION:Lannoita basilikaa kahden viikon välein kasvukaudella
  vahvuudella. Liika lannoitus voi heikentää aromia. Esimerkkituote: 
  Substral Viherravinne tai yrttikasvilannoite.
  Lähde: NC State Plant Toolbox; Clemson HGIC.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tammi-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260512T090000Z
+DTSTART;VALUE=DATE:20260415
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9;BYDAY=MO,WE,FR
+SUMMARY:Tammi (Quercus spp.) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve kolme kertaa viikossa kevät-kesäkaudella 
+ (TERASSILLA RUUKUSSA). Pidä multa tasaisen kosteana\, erityisesti 
+ kuumina ja tuulisina päivinä. Ruukku kuivuu ulkona nopeasti. 
+ Kasvukaudella aktiivinen kasvu tarvitsee paljon vettä. VESIMÄÄRÄ: noin 
+ 1-3 dl per kastelukerran (riippuen ruukun koosta ja säästä\, lehtipuu). 
+ HUOM: Jos ei tee lehtiä toukokuussa\, tarkista juuristo ja mullan 
+ kosteus\, voi olla stressi tai vahingoittunut.
+ Lähde: Royal Horticultural Society; NC State Extension.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tammi-syksy-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260512T090000Z
+DTSTART;VALUE=DATE:20261001
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=10,11
+SUMMARY:Tammi (Quercus spp.) - kastelun tarkistus (harvemmin)
+DESCRIPTION:Tarkista kastelutarve noin kahden viikon välein syksyllä 
+ (TERASSILLA RUUKUSSA). Kun lehdet alkavat pudota\, kastele harvemmin. 
+ Anna mullan kuivahtaa hieman kastelujen välissä\, mutta älä anna 
+ juuriston kuivua täysin. VESIMÄÄRÄ: noin 0\,5-1\,5 dl per kastelukerran 
+ (lehtipuu valmistautuu lepoon).
+ Lähde: Royal Horticultural Society; NC State Extension.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tammi-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260512T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=MONTHLY;BYMONTH=12,1,2,3;BYMONTHDAY=15
+SUMMARY:Tammi (Quercus spp.) - kastelun tarkistus (talvella)
+DESCRIPTION:Tarkista kastelutarve kerran kuukaudessa talvella 
+ (TERASSILLA RUUKUSSA). Lehtipuu on lepotilassa ja tarvitsee hyvin vähän 
+ vettä. Kastele vain jos multa on täysin kuiva\, ettei juuristo kuole. 
+ VESIMÄÄRÄ: noin 0\,3-0\,8 dl per kastelukerran (talvella vähän). 
+ PAKKASENSUOJA: Jos pakkasta alle -15°C\, siirrä suojaan tai suojaa 
+ ruukku styroksilla/kuplamuovilla. Tammi tarvitsee kylmäjakson 
+ talvella\, mutta ruukussa juuret voivat jäätyä.
+ Lähde: Royal Horticultural Society; NC State Extension.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tammi-lannoitus-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260512T090000Z
+DTSTART;VALUE=DATE:20260501
+RRULE:FREQ=MONTHLY;BYMONTH=5,6,7;BYMONTHDAY=1
+SUMMARY:Tammi (Quercus spp.) - lannoitus
+DESCRIPTION:Lannoita tammea touko-heinäkuussa kerran kuukaudessa miedolla 
+ puutarhalannoitteella. Nuoret tammet ruukussa hyötyvät kevyestä 
+ lannoituksesta kasvukaudella. Käytä puille tarkoitettua lannoitetta tai 
+ yleislannoitetta puolikkaalla vahvuudella. Älä lannoita talvella.
+ Lähde: Royal Horticultural Society; NC State Extension.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tammi-lehtipuhkeaminen-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260512T090000Z
+DTSTART;VALUE=DATE:20260420
+RRULE:FREQ=YEARLY;BYMONTH=4;BYMONTHDAY=20
+SUMMARY:Tammi (Quercus spp.) - lehtipuhkeaminen alkaa
+DESCRIPTION:Tammen lehtien pitäisi alkaa puhkeamaan huhti-toukokuussa 
+ Etelä-Suomessa. Jos lehtiä ei näy toukokuun puoliväliin mennessä\, 
+ kasvi saattaa olla stressaantunut tai vahingoittunut. Tarkista mullan 
+ kosteus\, juuristo ja oksat (elävä oksa on joustava). Ruukussa kasvavat 
+ tammet voivat olla viiveessä sisätiloissa talvehtineina.
+ Lähde: Luontopalvelut; Royal Horticultural Society.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:tammi-lehtien-putoaminen-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260512T090000Z
+DTSTART;VALUE=DATE:20261015
+RRULE:FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=15
+SUMMARY:Tammi (Quercus spp.) - lehtien putoaminen alkaa
+DESCRIPTION:Tammen lehdet alkavat pudota loka-marraskuussa. Tämä on 
+ normaalia - lehtipuu siirtyy lepotilaan talveksi. Vähennä kastelua 
+ merkittävästi kun lehdet putoavat. Ruukussa ulkona säilytettävä tammi 
+ tarvitsee kylmäjakson\, mutta suojaa juuristo ankarimmilta pakkasilla.
+ Lähde: Luontopalvelut; Royal Horticultural Society.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:perhosorkidea-kevat-kesa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260512T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;BYMONTH=4,5,6,7,8,9
+SUMMARY:Perhosorkidea (Phalaenopsis spp.) - kastelun tarkistus
+DESCRIPTION:Tarkista kastelutarve viikoittain kevät-kesäkaudella. 
+ Kastele vasta\, kun juuret näkyvät lasiruukussa hopeanharmaina 
+ (kuivat) - vihreät juuret ovat kosteita. UPOTUSKASTELU: upota ruukku 
+ 10-15 min haaleaan veteen (huoneenlämpöinen tai hieman lämpimämpi)\, 
+ anna ylimääräisen veden valua kokonaan pois. ÄLÄ koskaan jätä 
+ seisovaa vettä pohjalle - aiheuttaa juurten mätänemisen. VESIMÄÄRÄ: 
+ noin 0\,5-1 dl per kastelukerran (pienehkö orkidea lasiruukussa).
+ Lähde: American Orchid Society; RHS.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:perhosorkidea-syksy-talvi-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260512T090000Z
+DTSTART;VALUE=DATE:20261001
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=1,2,3,10,11,12
+SUMMARY:Perhosorkidea (Phalaenopsis spp.) - kastelun tarkistus (harvemmin)
+DESCRIPTION:Tarkista kastelutarve noin 10-14 päivän välein 
+ syksy-talvikaudella. Kastele harvemmin kuin kesällä\, kun juuret 
+ näkyvät hopeanharmaina. UPOTUSKASTELU: upota ruukku 10-15 min haaleaan 
+ veteen\, anna valua kokonaan pois. Talvella haihdutus on hitaampaa. 
+ VESIMÄÄRÄ: noin 0\,3-0\,7 dl per kastelukerran (talvikausi).
+ Lähde: American Orchid Society; RHS.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:perhosorkidea-lannoitus-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260512T090000Z
+DTSTART;VALUE=DATE:20260401
+RRULE:FREQ=WEEKLY;INTERVAL=2;BYMONTH=4,5,6,7,8,9
+SUMMARY:Perhosorkidea (Phalaenopsis spp.) - lannoitus
+DESCRIPTION:Lannoita joka toinen viikko kevät-kesäkaudella orkideille 
+ tarkoitetulla lannoitteella. Käytä puolikkaalla vahvuudella 
+ valmistajan suosituksesta. Lannoita vain kostutettuun juuristoon - 
+ älä koskaan kuivaan. Talvella lannoita harvemmin\, noin kerran 
+ kuukaudessa. Esimerkkituote: Substral Orkidearavinne tai muu 
+ orkidealannoite.
+ Lähde: American Orchid Society; RHS.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:perhosorkidea-kukinta-alkaa-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260512T090000Z
+DTSTART;VALUE=DATE:20260101
+RRULE:FREQ=YEARLY;BYMONTH=1;BYMONTHDAY=15
+SUMMARY:Perhosorkidea (Phalaenopsis spp.) - kukinta voi alkaa
+DESCRIPTION:Mahdollinen kukinta Etelä-Suomen sisätiloissa tavallisimmin 
+ tammi-toukokuussa. Perhosorkidea voi kukita useita kertoja vuodessa 
+ hyvissä olosuhteissa. Kukinta-aika kestää yleensä 2-3 kuukautta. 
+ Älä leikkaa kukkavartaa heti pois - se voi tuottaa uusia kukkia tai 
+ sivuvarsia. Leikkaa vasta kun varsi kuivuu tai muuttuu ruskeaksi.
+ Lähde: American Orchid Society; RHS.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:perhosorkidea-kukinta-paattyy-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260512T090000Z
+DTSTART;VALUE=DATE:20260601
+RRULE:FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=1
+SUMMARY:Perhosorkidea (Phalaenopsis spp.) - kukinta päättyy tyypillisesti
+DESCRIPTION:Kukintakausi päättyy tyypillisesti touko-kesäkuussa. Jos 
+ kukkavarre on yhä vihreä\, älä leikkaa - se voi tuottaa uusia 
+ kukkia tai sivuvarsia. Lepo-aikana orkidea kerää voimia seuraavaa 
+ kukintaa varten. Jatka normaalia kastelua ja lannoitusta. Uusi 
+ kukkavarre voi ilmaantua myöhemmin vuonna.
+ Lähde: American Orchid Society; RHS.
+END:VEVENT
+
+BEGIN:VEVENT
+UID:perhosorkidea-juuritarkistus-1@sisakasvien-kastelukalenteri
+DTSTAMP:20260512T090000Z
+DTSTART;VALUE=DATE:20260901
+RRULE:FREQ=YEARLY;BYMONTH=9;BYMONTHDAY=1
+SUMMARY:Perhosorkidea (Phalaenopsis spp.) - juuriston tarkistus
+DESCRIPTION:Syyskuussa on hyvä aika tarkistaa orkidean juuriston kunto 
+ lasiruukusta. Terveet juuret ovat vaaleita (kuivina hopeanharmaat\, 
+ kasteltuna vihreät)\, kiinteitä ja tukevat kasvia. Jos juuret ovat 
+ ruskeita\, märkiä\, vetisiä tai mätiä\, orkidea tarvitsee 
+ uudelleenistutusta. Poista vaurioituneet juuret ja käytä raikasta 
+ orkideamultaa (karkea\, ilmava sekoitus kuten kuoripala).
+ Lähde: American Orchid Society; RHS.
 END:VEVENT
 
 END:VCALENDAR
